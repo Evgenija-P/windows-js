@@ -120,7 +120,13 @@ textarea:focus {
   font-style: normal;
   border: 1px solid #ffc600;
   border-radius: 1rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ffed26), to(#ffb400));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ffed26),
+    to(#ffb400)
+  );
   background: linear-gradient(180deg, #ffed26 0%, #ffb400 100%);
   -webkit-box-shadow: 1px 2px 20px 0px rgba(255, 153, 0, 0.4);
   box-shadow: 1px 2px 20px 0px rgba(255, 153, 0, 0.4);
@@ -397,8 +403,20 @@ textarea:focus {
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
   border-top: 0.5rem solid #0089cd;
-  background: -webkit-gradient(linear, left top, left bottom, from(#c7dce9), color-stop(0%, #c7dce9), to(rgba(255, 255, 255, 0)));
-  background: linear-gradient(180deg, #c7dce9 0%, #c7dce9 0%, rgba(255, 255, 255, 0) 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#c7dce9),
+    color-stop(0%, #c7dce9),
+    to(rgba(255, 255, 255, 0))
+  );
+  background: linear-gradient(
+    180deg,
+    #c7dce9 0%,
+    #c7dce9 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
 }
 
 .glazing_cold h3 {
@@ -418,8 +436,20 @@ textarea:focus {
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
   border-top: 0.5rem solid #ffb903;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f7eac9), color-stop(0%, #f7eac9), to(rgba(255, 255, 255, 0)));
-  background: linear-gradient(180deg, #f7eac9 0%, #f7eac9 0%, rgba(255, 255, 255, 0) 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f7eac9),
+    color-stop(0%, #f7eac9),
+    to(rgba(255, 255, 255, 0))
+  );
+  background: linear-gradient(
+    180deg,
+    #f7eac9 0%,
+    #f7eac9 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
 }
 
 .glazing_warm h3 {
@@ -538,8 +568,20 @@ textarea:focus {
   border-top: 1rem solid #0089cd;
   height: 8rem;
   padding: 2rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ebebeb), color-stop(0%, #ebebeb), to(rgba(255, 255, 255, 0)));
-  background: linear-gradient(180deg, #ebebeb 0%, #ebebeb 0%, rgba(255, 255, 255, 0) 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ebebeb),
+    color-stop(0%, #ebebeb),
+    to(rgba(255, 255, 255, 0))
+  );
+  background: linear-gradient(
+    180deg,
+    #ebebeb 0%,
+    #ebebeb 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
 }
 
 .decoration_content {
@@ -589,7 +631,7 @@ textarea:focus {
   margin-bottom: 3rem;
 }
 
-.works a[data-fancybox="gallery"] .lupa {
+.works a[data-fancybox='gallery'] .lupa {
   /* position: ; */
   top: 0;
   left: 0;
@@ -602,7 +644,7 @@ textarea:focus {
   transition: ease 0.2s;
 }
 
-.works a[data-fancybox="gallery"]:hover .lupa {
+.works a[data-fancybox='gallery']:hover .lupa {
   opacity: 1;
 }
 
@@ -634,7 +676,8 @@ textarea:focus {
 }
 
 .guarantees_block:hover {
-  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
@@ -682,9 +725,8 @@ textarea:focus {
   line-height: 1.6;
 }
 
-
 /* Timer */
- .timer1 {
+.timer1 {
   padding: 10px;
   border: 1px solid grey;
   background-color: white;
@@ -697,34 +739,26 @@ textarea:focus {
 
 .container1 {
   display: inline-block;
-
 }
 .numbers1 {
   display: block;
-  float: left;  
+  float: left;
   color: white;
   font-size: 40px;
   margin-right: 10px;
 }
 
-.timer1 span{
+.timer1 span {
   margin-right: 2px;
   background-color: #575757;
   border-radius: 7px;
   padding: 4px;
 }
-.description1{
+.description1 {
   font-size: 18px;
   text-align: center;
   color: black;
 }
-
-
-
-
-
-
-
 
 /*Contacts*/
 .contacts {
@@ -859,7 +893,6 @@ textarea:focus {
   z-index: 9;
   background-color: rgba(0, 0, 0, 0.7);
   opacity: 1;
-
 }
 
 .popup_content,
@@ -937,11 +970,11 @@ textarea:focus {
   display: inline-block;
 }
 
-.do_image_more img{
-    width: 110px;
-    height: 70px;
-    cursor: pointer;
-  }
+.do_image_more img {
+  width: 110px;
+  height: 70px;
+  cursor: pointer;
+}
 
 .popup_calc_close {
   position: absolute;
@@ -1039,8 +1072,8 @@ textarea:focus {
   vertical-align: middle;
 }
 
-.popup_calc_profile_content .checkbox:checked+.checkbox-custom::before {
-  content: "";
+.popup_calc_profile_content .checkbox:checked + .checkbox-custom::before {
+  content: '';
   display: block;
   position: absolute;
   top: 0;
@@ -1049,7 +1082,7 @@ textarea:focus {
   left: 0;
 }
 
-.checkbox-custom[id="cold"]::before {
+.checkbox-custom[id='cold']::before {
   background: url(../img/modal_calc/check.png) center center no-repeat;
 }
 
@@ -1057,7 +1090,7 @@ textarea:focus {
   background: url();
 }
 
-.checkbox-custom[id="warm"]::before {
+.checkbox-custom[id='warm']::before {
   background: url(../img/modal_calc/check_warm.png) center center no-repeat;
 }
 
@@ -1157,7 +1190,6 @@ textarea:focus {
   .payment_img img {
     margin-right: 1rem;
   }
-
 }
 
 @media (max-width: 991px) {
@@ -1210,7 +1242,6 @@ textarea:focus {
   .header .contact_us_wrap a {
     font-size: 1.4rem;
   }
-
 
   .header .contact_us_wrap .phone_link {
     font-size: 1.15rem;
@@ -1548,8 +1579,6 @@ textarea:focus {
     margin-top: 1rem;
   }
 
-
-
   .header .working_hours p {
     font-size: 1.2rem;
   }
@@ -1817,4 +1846,158 @@ textarea:focus {
     -webkit-animation: none !important;
     animation: none !important;
   }
+}
+
+/* @charset "UTF-8";
+Slider */
+.slick-loading .slick-list {
+  background: #ffffff url('ajax-loader.gif') center center no-repeat;
+}
+/* Arrows */
+.slick-prev,
+.slick-next {
+  position: absolute;
+  display: block;
+  height: 20px;
+  width: 20px;
+  line-height: 0px;
+  font-size: 0px;
+  cursor: pointer;
+  background: transparent;
+  color: transparent;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  padding: 0;
+  border: none;
+  outline: none;
+}
+.slick-prev:hover,
+.slick-next:hover,
+.slick-prev:focus,
+.slick-next:focus {
+  outline: none;
+  background: transparent;
+  color: transparent;
+}
+.slick-prev:hover:before,
+.slick-next:hover:before,
+.slick-prev:focus:before,
+.slick-next:focus:before {
+  opacity: 1;
+}
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before {
+  opacity: 0.25;
+}
+.slick-prev:before,
+.slick-next:before {
+  font-family: 'slick';
+  font-size: 20px;
+  line-height: 1;
+  color: #ffffff;
+  opacity: 0.75;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Icons */
+}
+@font-face {
+  font-family: 'slick';
+  font-weight: normal;
+  font-style: normal;
+  src: url('fonts/slick.eot');
+  src: url('fonts/slick.eot?#iefix') format('embedded-opentype'),
+    url('fonts/slick.woff') format('woff'),
+    url('fonts/slick.ttf') format('truetype'),
+    url('fonts/slick.svg#slick') format('svg');
+}
+.slick-prev {
+  left: -25px;
+}
+[dir='rtl'] .slick-prev {
+  left: auto;
+  right: -25px;
+}
+.slick-prev:before {
+  content: '←';
+}
+[dir='rtl'] .slick-prev:before {
+  content: '→';
+}
+.slick-next {
+  right: -25px;
+}
+[dir='rtl'] .slick-next {
+  left: -25px;
+  right: auto;
+}
+.slick-next:before {
+  content: '→';
+}
+[dir='rtl'] .slick-next:before {
+  content: '←';
+}
+/* Dots */
+.slick-dotted .slick-slider {
+  margin-bottom: 30px;
+}
+.slick-dots {
+  position: absolute;
+  bottom: -25px;
+  list-style: none;
+  display: block;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+.slick-dots li button {
+  border: 0;
+  background: transparent;
+  display: block;
+  height: 20px;
+  width: 20px;
+  outline: none;
+  line-height: 0px;
+  font-size: 0px;
+  color: transparent;
+  padding: 5px;
+  cursor: pointer;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus {
+  outline: none;
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before {
+  opacity: 1;
+}
+.slick-dots li button:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '•';
+  width: 20px;
+  height: 20px;
+  font-family: 'slick';
+  font-size: 6px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  opacity: 0.25;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before {
+  color: #000000;
+  opacity: 0.75;
 }
